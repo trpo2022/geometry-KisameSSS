@@ -18,11 +18,12 @@ int main(){
 	if(choose==2){
 		printf("\nEnter the sides of the triangle: ");
 		scanf("%f%f%f",&a1,&a2,&a3);
-		if((a1+a2 > a3)&&(a1+a3 > a2)&&(a2+a3 > a1){
+		if((a1+a2 > a3)&&(a1+a3 > a2)&&(a2+a3 > a1)){
 			l = a1+a2+a3;
 			r= l / 2;
 			s= sqrt(r*(r-a1)*(r-a2)*(r-a3));
 			printf("\nP = %f\nS = %f", l, s);
+		}
 		else{
 			printf("Error please enter correct sides!");
 		}
