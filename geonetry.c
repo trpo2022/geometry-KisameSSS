@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <math.h>
-const PI = 3.14;
+const float PI = 3.14;
 
 int main(){
 	int choose;
 	float l,a1,a2,a3,r,s;
-	printf("if your object is a cirle please press 1\n\nif your object is a triangle press 2");
+	printf("if your object is a cirle please press 1\n\nif your object is a triangle press 2\n");
 	scanf("%d", &choose);
 	if(choose==1){
 		printf("\nEnter the radius of the circle: ");
@@ -26,5 +26,5 @@ int main(){
 		else{
 			printf("Error please enter correct sides!");
 		}
-
-
+	}
+}
